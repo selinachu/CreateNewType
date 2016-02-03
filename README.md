@@ -77,9 +77,9 @@ Make modification to the following files:
 
 5. Once all the changes are made, generate two new jar files from these directories (below) to put in {binary-ctakes-directory}/lib/
 
-    •	/ctakes/ctakes-dictionary-lookup-fast/
+      •	/ctakes/ctakes-dictionary-lookup-fast/
     
-    •	/ctakes/ctakes-type-system/
+      •	/ctakes/ctakes-type-system/
     
     Modify the pom files of their respective directories to use the new jar files
     
@@ -102,23 +102,23 @@ Make modification to the following files:
 
 6. Generate two new jar files from these directories to put in binary-ctakes-directory/lib/
 
-    $ cd /ctakes/ctakes-dictionary-lookup-fast/
+      $ cd /ctakes/ctakes-dictionary-lookup-fast/
 
-    $ mvn package
+      $ mvn package
 
-    $ cd target
+      $ cd target
 
-    $ cp ctakes-dictionary-lookup-fast-3.2.3-SNAPSHOT.jar  {binary-ctakes-directory}/lib/.
+      $ cp ctakes-dictionary-lookup-fast-3.2.3-SNAPSHOT.jar  {binary-ctakes-directory}/lib/.
 
 
     
-    $ cd /ctakes/ctakes-type-system/
+      $ cd /ctakes/ctakes-type-system/
 
-    $ mvn package
+      $ mvn package
 
-    $ cd target
+      $ cd target
 
-    $ cp ctakes-type-system-3.2.3-SNAPSHOT-selina.jar {binary-ctakes-directory}/lib/.
+      $ cp ctakes-type-system-3.2.3-SNAPSHOT-selina.jar {binary-ctakes-directory}/lib/.
 
 
 
